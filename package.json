@@ -1,7 +1,7 @@
 {
-  "name": "tsm",
+  "name": "Typescript Tests",
   "version": "1.0.0",
-  "description": "interview part 2",
+  "description": "A minified example of using Typescript and Jest with ES6 with out depending on larger libraries like Express or React",
   "main": "index.ts",
   "scripts": {
     "test": "jest *.test.ts --watchAll"
