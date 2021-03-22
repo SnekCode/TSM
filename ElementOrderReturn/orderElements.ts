@@ -13,6 +13,11 @@ const sortElements = (a: IElement, b: IElement) => {
   return a[aKey].length < b[bKey].length ? -1 : 1;
 };
 
+/**
+ * Order Elements
+ * 
+ * @returns string[]
+ */
 const orderElements = (layoutArray: IElement[]) => {
   // sort the IElement Array based on the length of the sub array of dependencies
   const sortedObject = layoutArray.sort(sortElements);

@@ -1,9 +1,10 @@
 {
-  "name": "Typescript Tests",
+  "name": "Typescript_Tests",
   "version": "1.0.0",
   "description": "A minified example of using Typescript and Jest with ES6 with out depending on larger libraries like Express or React",
   "main": "index.ts",
   "scripts": {
+    "example": "ts-node ./index.ts",
     "test": "jest *.test.ts --watchAll"
   },
   "author": "Patrick Kelly",
